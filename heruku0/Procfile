@@ -1,0 +1,1 @@
+web: gunicorn heruku0.wsgi:application --log-file -
