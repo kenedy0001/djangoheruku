@@ -10,7 +10,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.1/ref/settings/
 """
 import os
-import django_heruku
+import django_heroku
 import dj_database_url
 
 from pathlib import Path
@@ -123,4 +123,4 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, "static")
-django_heruku.settings(locals())
+django_heroku.settings(locals())
